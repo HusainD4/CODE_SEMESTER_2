@@ -1,6 +1,9 @@
 import manage as mg
 
 while True:
+    print('='*25) 
+    print("SELAMAT DATANG DI PROGRAM STOCK")
+    print('='*25) 
     mg.menu()
     pilihan = int(input('Masukan Pilihan : '))
 
@@ -18,6 +21,6 @@ while True:
         mg.tampilkan_jumlah_data_barang()
     if pilihan == 7:
         print('='*25)  
-        print("TERIMAKASIH")  
+        print("TERIMAKASIH TELAH MENGGUNAKAN PROGRAM\nDATA MANAGEMENT HUSAIN")  
         print('='*25)
         exit()  
